@@ -15,7 +15,7 @@ jobs:
       TARGET_DEVICE: ${{ matrix.target }}
     strategy:
       matrix:
-        target: ["a3004ns", "csac", "domywifi-dw33d", "ghl-r-001-e", "ghl-r-001-f", "hd51-n", "hq55", "hw24g", "newifi-d2", "tl-wdr4310-v1", "tl-wdr7500-v3", "tl-wr841-v9", "tl-wr885n-v1", "tl-wr941nd-v6-cn", "tl-wr941n-v7", "wr1200js", "youku-yk1", "link7", "mw450r-v3"]
+        target: ["domywifi-dw33d"]
     steps:
       - name: Initialize token
         env:
